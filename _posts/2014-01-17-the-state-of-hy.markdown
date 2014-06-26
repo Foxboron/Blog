@@ -50,7 +50,7 @@ Reader Macros
 
 Hy also recently got reader macros! So you can now have neato ways of altering the syntax as you go!
 
-```clj
+```clojure
 => (defreader ^ [expr] (print expr))
 => #^(1 2 3 4)
 (1 2 3 4)
@@ -62,7 +62,7 @@ Hy also recently got reader macros! So you can now have neato ways of altering t
 
 What about a literal for tuples? Hy dosn't got that!
 
-```clj
+```clojure
 => (defreader t [expr] `(, ~@expr))
 => #t(1 2 3)
 (1, 2, 3)
