@@ -1,0 +1,21 @@
+name: The Forest
+markdown: redcarpet
+highlighter: pygments
+github: https://www.github.com/Foxboron
+about: Internet dweller. Programming in Python and Clojure. Hy developer. Interested in encryption and Tor.
+
+host: 127.0.0.1
+
+urls:
+    - text: Twitter
+      url: https://twitter.com/MortenLinderud
+    - text: Github
+      url: https://github.com/Foxboron
+    - text: email
+      url: mailto:mcfoxax@gmail.com
+    - text: PGP
+      url: http://pgp.velox.pw
+    - text: Keybase
+      url: https://keybase.io/fox
+redcarpet:
+  extensions: [tables, autolink, no_intra_emphasis, fenced_code_blocks, underline]
