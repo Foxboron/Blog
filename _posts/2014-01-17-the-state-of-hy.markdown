@@ -50,7 +50,7 @@ Reader Macros
 
 Hy also recently got reader macros! So you can now have neato ways of altering the syntax as you go!
 
-{% highlight hy %}
+```clj
 => (defreader ^ [expr] (print expr))
 => #^(1 2 3 4)
 (1 2 3 4)
@@ -58,15 +58,15 @@ Hy also recently got reader macros! So you can now have neato ways of altering t
 "Hello"
 => #^1+2+3+4+3+2
 1+2+3+4+3+2
-{% endhighlight %}
+```
 
 What about a literal for tuples? Hy dosn't got that!
 
-{% highlight hy %}
+```clj
 => (defreader t [expr] `(, ~@expr))
 => #t(1 2 3)
 (1, 2, 3)
-{% endhighlight %}
+```
 
 I should note that because of bad testing (or me), reader macros is currently lacking a few features in 0.9.12, but that will be solved in the upcoming release!
 ref: http://docs.hylang.org/en/latest/language/readermacros.html
