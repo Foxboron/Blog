@@ -64,7 +64,7 @@ new one.
 
 The base configuration should look something like this:
 
-```
+```markdown
 include(`/usr/share/sendmail-cf/m4/cf.m4')
 define(`confDOMAIN_NAME', `<DOMAIN>')dnl
 FEATURE(use_cw_file)
