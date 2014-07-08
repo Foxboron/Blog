@@ -2,7 +2,7 @@
 layout: post
 title: "Mailpile, sendmail & procmail"
 categories: mail
-published: false 
+published: true
 ---
 
 
