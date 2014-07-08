@@ -57,6 +57,7 @@ a:hover {
 code {
     margin: 0px;
     border: 1px solid #DDD;
+    color: #000;
     background-color: #F8F8F8;
     border-radius: 3px;
     padding: 0px;
