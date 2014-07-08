@@ -82,7 +82,7 @@ div.content {
 div.content pre {
     background: #FFFFFF;
     padding: 5px;
-    color: #FFF;
+    color: #000;
     overflow-x: auto;
     font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
     font-size: 12px;
