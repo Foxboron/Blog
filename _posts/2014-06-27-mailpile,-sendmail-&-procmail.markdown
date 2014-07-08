@@ -96,19 +96,22 @@ And the command:
 
 Th next file is  `/etc/mail/local-host-names`, it should contain all domains to 
 the server. They should also resolve in your file `/etc/hosts`
-```
+  
+```  
 localhost
 <domain>
 mail.<domain>
 localhost.localdomain
 ```
-
+  
 `/ect/mail/access` contains the list of addresses we want to relay mail from.
 Since we are using mailpile, we assume we will only relay mail from our 
 local IP.
+  
 ```
 127.0.0.1       RELAY
 ```
+  
 Generate the config file again as follow:
 `makemap hash /etc/mail/access.db < /etc/mail/access`
 
@@ -118,11 +121,13 @@ set the required mail handles to `root`, and set our user to be `root`.
 Thus we can receive all the mails to `postmaster` and  `abuse` without having
 to care about separate users.
 Thus the only line you should change would be:
+  
 ```
 ...
 root:           <your user>
 ...
 ```
+  
 You can at this point add other aliases or other users for better management.
 Generate the file for sendmail with the command `newaliases`
 
