@@ -64,7 +64,7 @@ new one.
 
 The base configuration should look something like this:
 
-```markdown
+<pre>
 include(`/usr/share/sendmail-cf/m4/cf.m4')
 define(`confDOMAIN_NAME', `<DOMAIN>')dnl
 FEATURE(use_cw_file)
@@ -81,7 +81,7 @@ define(`confSERVER_KEY',`/etc/ssl/private/server.key')
 OSTYPE(linux)dnl
 MAILER(local)dnl
 MAILER(smtp)dnl
-```
+<pre>
 
 This config makes a few assumptions. The `confAUTH_OPTIONS` tells sendmail that
 it won't relay mail unless the user authenticates. There won't be any plaintext
