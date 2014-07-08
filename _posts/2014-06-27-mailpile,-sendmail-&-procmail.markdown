@@ -64,7 +64,7 @@ new one.
 
 The base configuration should look something like this:
 
-```txt
+```
 include(`/usr/share/sendmail-cf/m4/cf.m4')
 define(`confDOMAIN_NAME', `<DOMAIN>')dnl
 FEATURE(use_cw_file)
@@ -94,8 +94,8 @@ Generating the final config should be done with the following command:
 And the command:
 `makemap hash /etc/mail/virtusertable.db < /etc/mail/virtusertable`
 
-Th next file is  `/etc/mail/local-host-names`, it should contain all domains to the 
-server. They should also resolve in your file `/etc/hosts`
+Th next file is  `/etc/mail/local-host-names`, it should contain all domains to 
+the server. They should also resolve in your file `/etc/hosts`
 ```
 localhost
 <domain>
