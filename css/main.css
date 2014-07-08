@@ -53,6 +53,16 @@ a:hover {
     text-decoration: underline;
 }
 
+
+code {
+    margin: 0px;
+    border: 1px solid #DDD;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+
 /**
  * /////////////////
  * Container element
