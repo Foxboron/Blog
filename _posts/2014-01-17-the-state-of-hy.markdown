@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The State of Hy"
-date:   2014-01-17 18:00:00 
 categories: hy
+published: true
 ---
 So, with the recent hipster attitude of posting a "State of *" every year, I thought i'd try and do it for something I have been contributing to for the past 6 months, Hy.
 
