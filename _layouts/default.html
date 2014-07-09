@@ -25,7 +25,7 @@
 				<h1>{{ site.name }}</h1>
 				<img id="about" src="/img/logo.jpg" height="75px" width="75px" /><br />	
 
-				<strong>navigation</strong><br />
+				<strong>Navigation</strong><br />
 				<a href="/">home</a> <br />
 				{% for i in site.urls %}
 					<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
@@ -33,7 +33,7 @@
 				
 				{% if site.about %}
 				<div id="about">
-					<strong>about</strong><br />
+					<strong>About</strong><br />
 					{{ site.about }}
 				</div>
 				{% endif %}
