@@ -53,9 +53,18 @@ a:hover {
     text-decoration: underline;
 }
 
+pre code {
+    padding: 0px;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0px solid #DDD !important;
+}
 
 code {
-    /*border: 1px solid #DDD;*/
+    border: 1px solid #DDD;
     color: #000;
     background-color: #F8F8F8;
     border-radius: 3px;
