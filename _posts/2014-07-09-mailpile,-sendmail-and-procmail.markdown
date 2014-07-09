@@ -4,6 +4,7 @@ title: "Mailpile, sendmail & procmail"
 categories: mail
 published: true
 ---
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
 
 What is Mailpile?

@@ -4,6 +4,8 @@ title:  "The State of Hy"
 categories: hy
 published: true
 ---
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+
 So, with the recent hipster attitude of posting a "State of *" every year, I thought i'd try and do it for something I have been contributing to for the past 6 months, Hy.
 
 
