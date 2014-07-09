@@ -192,7 +192,7 @@ set profiles.0.messageroute = default
 Visit `http://127.0.0.1:33411` and enjoy Mailpilsources:
 
 Questions can be sent on [Twitter] (https://twitter.com/MortenLinderud)
-or mail at (fox@velox.pw)[mailto:fox@velox.pw].
+or mail at [fox@velox.pw](mailto:fox@velox.pw).
 
 ## Additional Reading Material
 http://weldon.whipple.org/sendmail/starttlstut.html
