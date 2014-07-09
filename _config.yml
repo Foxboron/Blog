@@ -19,5 +19,7 @@ urls:
       url: http://pgp.velox.pw
     - text: Keybase
       url: https://keybase.io/fox
+    - text: RSS
+      url: https://velox.pw/feed.xml
 redcarpet:
   extensions: [tables, autolink, no_intra_emphasis, fenced_code_blocks, underline]
