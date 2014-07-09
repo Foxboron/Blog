@@ -41,8 +41,9 @@ You will need 3 things:
   3. mailpile  
 
 This setup assumes you know how to portforward port 25, which needs to be open
-to receive mail. I will also assume basic knowledge on any Linux distro. Even
-if the configurations are slightly different, there should be no major issue.
+to receive mail, along with how to setup a domains DNS records. I will also 
+assume basic knowledge on any Linux distro. Even if the configurations are 
+slightly different, there should be no major issue.
 
 Sendmail will work as the Message Transfer Agent (MTA), it will control
 outgoing mail and incoming mail. Procmail works as a Mail Delivery Agent 
@@ -89,10 +90,7 @@ properly generate the correct OpenSSL certs. Remember to adjust the
 the final config should be done with the following command:  
 `m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf`
 
-And the command:
-`makemap hash /etc/mail/virtusertable.db < /etc/mail/virtusertable`
-
-Th next file is  `/etc/mail/local-host-names`, it should contain all domains to 
+The next file is  `/etc/mail/local-host-names`, it should contain all domains to
 the server. They should also resolve in your file `/etc/hosts`
   
 ```  
