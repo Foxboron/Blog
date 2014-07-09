@@ -85,8 +85,8 @@ This config makes a few assumptions. The `confAUTH_OPTIONS` tells sendmail that
 it won't relay mail unless the user authenticates. There won't be any plaintext
 authentication on non-TLS connections. A good idea here is to read up on how to
 properly generate the correct OpenSSL certs. Remember to adjust the 
-`confDOMAIN_NAME` to the correct value, assuming you got a domain.
-Generating the final config should be done with the following command:
+`confDOMAIN_NAME` to the correct value, assuming you got a domain. Generating 
+the final config should be done with the following command:  
 `m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf`
 
 And the command:
@@ -146,7 +146,6 @@ DEFAULT=$HOME/Mail/inbox
 LOGFILE=$HOME/Mail/logfil2
 SHELL=/bin/sh
 
-
 :0:
 * ^To:.*domain\.tld
 /home/<user>/Mail/
@@ -192,7 +191,19 @@ set routes.default.command = /usr/bin/sendmail -i %(rcpt)s
 set profiles.0.messageroute = default
 ```
 
-Visit `http://127.0.0.1:33411` and enjoy Mailpile!
+Visit `http://127.0.0.1:33411` and enjoy Mailpilsources:
 
 Questions can be sent on [Twitter] (https://twitter.com/MortenLinderud)
 or mail at (fox@velox.pw)[mailto:fox@velox.pw].
+
+## Additional Reading Material
+http://weldon.whipple.org/sendmail/starttlstut.html
+https://wiki.archlinux.org/index.php/GnuPG
+https://wiki.archlinux.org/index.php/OpenSSL
+https://wiki.archlinux.org/index.php/OpenDKIM
+https://en.wikipedia.org/wiki/Sender_Policy_Framework
+
+## Sources
+https://wiki.archlinux.org/index.php/sendmail
+https://wiki.archlinux.org/index.php/Procmail
+
