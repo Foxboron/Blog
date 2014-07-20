@@ -174,8 +174,8 @@ change the lines for your needs.
 ```
 # Basic setup
 setup
-add profiles.0.email = <user>@<domain>
-add profiles.0.name = <Your Name>
+set profiles.0.email = <user>@<domain>
+set profiles.0.name = <Your Name>
 
 # Add mailbox and scan for mails
 add /home/<user>/Mail
