@@ -169,6 +169,16 @@ PyCon Spain 2013
 (Warning: Spanish)  
 http://www.youtube.com/watch?v=dUBmaTZ8tpA
 
+PyCon 2014
+https://www.youtube.com/watch?v=AmMaN1AokTI
+
+EuroClojure 2014
+http://vimeo.com/100977462
+
+
+Python User Group talk by Benjamin Vulpes
+https://www.youtube.com/watch?v=v1aLxXw7bfw
+
 Chicago Python User Group talk by Christopher Webber  
 http://www.youtube.com/watch?v=SB9TWabor1k
 
