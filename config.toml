@@ -44,7 +44,7 @@ email                  = "morten@linderud.pw"
 github                 = "//github.com/Foxboron"
 lang                   = "en"
 #noshowreadtime         = true
-selfintro              = ""
+selfintro              = "Informationscience, F/OSS Developer, Arch Linux trusted user and security team."
 twitter                = "//twitter.com/MortenLinderud"
 
 highlightjs            = true
