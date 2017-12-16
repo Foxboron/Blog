@@ -1,0 +1,55 @@
+baseurl             = "https://velox.pw/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "nb"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Morten Linderud"
+title               = "Morten Linderud"
+pygmentsuseclasses  = true
+pluralizelisttitles = false
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
+name                   = "Code"
+weight                 = -100
+identifier             = "code"
+url                    = "/code/"
+
+[params]
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Morten Linderud"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Something!"
+email                  = "morten@linderud.pw"
+github                 = "//github.com/Foxboron"
+lang                   = "en"
+#noshowreadtime         = true
+selfintro              = ""
+twitter                = "//twitter.com/MortenLinderud"
+
+highlightjs            = true
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
+
+avatar = "img/profile.png"
+#gravatar             = ""
