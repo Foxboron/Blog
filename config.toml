@@ -1,4 +1,4 @@
-baseurl             = "https://velox.pw/"
+baseurl             = "https://linderud.dev/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -39,12 +39,11 @@ author                 = "Morten Linderud"
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Something!"
+description            = "Description"
 email                  = "morten@linderud.pw"
-github                 = "//github.com/Foxboron"
 lang                   = "en"
-#noshowreadtime         = true
-selfintro              = "Informationscience, F/OSS Developer, Arch Linux trusted user and security team."
+selfintro              = "F/OSS Developer, Arch Linux trusted user and security team."
+github                 = "//github.com/Foxboron"
 twitter                = "//twitter.com/MortenLinderud"
 
 highlightjs            = true
