@@ -206,7 +206,7 @@ something we really want to accomplish. However we always need more hands to
 help!
 
 If you are interested helping out in any of these efforts, please visit
-\#archlinux-reproducible on Freenode, or \#reproducible-builds on oftc!
+\#archlinux-reproducible on Freenode, or \#reproducible-builds on OFTC!
 
 
 Thanks to Eli Schwartz, Santiago Torres-Arias, Holger Levsen and Viva for
