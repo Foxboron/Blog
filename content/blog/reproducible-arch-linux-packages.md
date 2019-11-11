@@ -38,8 +38,8 @@ to ensure timestamps can be overridden during build, and
 to ensure we can consistently trim build paths across toolchains.
 `SOURCE_DATE_EPOCH` has been integrated into
 [gcc](https://gcc.gnu.org/onlinedocs/cpp/Environment-Variables.html) and the
-toolchain for several projects. `BUILD_PATH_PREFIX_MAP` however has a lot of
-adoption yet.
+toolchain for several projects.  `BUILD_PATH_PREFIX_MAP` however has not seen a
+lot of adoption yet.
 
 Another project they work on is a Continuous Integration (CI) framework to test 
 reproducible packages. The Debian one is probably more interesting to 
