@@ -7,33 +7,33 @@ Arch Linux has been involved with the reproducible builds efforts since 2016.
 The goal is to achieve deterministic building of software packages to enhance
 the security of the distribution.
 
-After almost 3 years of efforts, along with the release of pacman 5.2 and
-contributions from a lot of people, we are finally able to reproduce packages
-distributed by Arch Linux!
+After almost 3 years of continued effort, along with the release of pacman 5.2
+and contributions from a lot of people, we are finally able to reproduce
+packages distributed by Arch Linux!
 
 This enables users to build packages and compare them with the ones distributed
 by the Arch Linux team. Users can independently verify the work done by our
 packagers, and figure out if malicious code has been included in the pristine
-source during build, which in turns enhances the overall supply chain security.
+source during the build, which in turns enhances the overall supply chain security.
 We are one of the first binary distributions that has achieved this, and can
 provide tooling down to users.
 
-That was the tl;dr! The rest of the blog post will explain the reproducible
+That was the TL;DR! The rest of the blog post will explain the reproducible
 builds efforts, and the technical work that has gone into achieving this.
 
 ### Reproducible Builds
 
 The [reproducible builds](https://reproducible-builds.org/) effort was started
 by Debian in 2013 and currently encompasses [several
-projects](https://reproducible-builds.org/who/) across the spectrum from
-coreboot, Bitcoin, NixOS and F-Droid to mention a few of them.
+projects](https://reproducible-builds.org/who/) across the spectrum, from
+coreboot, Bitcoin, NixOS and F-Droid to mention a few.
 
 The goal of the effort is to figure out what makes software projects
 undeterministic, and come up with standards to solve these issues.
 
 Two of these standards are
 [`SOURCE_DATE_EPOCH`](https://reproducible-builds.org/specs/source-date-epoch/)
-to ensure timestamps can be overridden during build, and
+to ensure timestamps can be overridden during the build, and
 [`BUILD_PATH_PREFIX_MAP`](https://reproducible-builds.org/specs/build-path-prefix-map/)
 to ensure we can consistently trim build paths across toolchains.
 `SOURCE_DATE_EPOCH` has been integrated into
@@ -57,9 +57,8 @@ ftp.debian.org (and we always knew that and pointed it out: "93% reproducible
 _in our current test framework_")". We are essentially building the same set of 
 files twice in different environments.
 
-Ensuring software projects can be deterministically built is all fine and dandy, 
-but we want to enable users with the ability to verify the work package 
-maintainers are doing.
+Ensuring software projects can be deterministically built is all fine and dandy,
+but we grant users the ability to verify the work package maintainers are doing.
 
 
 ### Reproducing packages
@@ -137,8 +136,8 @@ tools.
 
 The input of `repro` is a package, however this alone is not enough to rebuild a
 package. We need the `PKGBUILD` file. Internally all Arch packages are stored in
-an svn repository. This is a bit tedious to work with, but we provide a tool
-called `asp` which pulls a given package down from a git mirror of the svn
+an SVN repository. This is a bit tedious to work with, but we provide a tool
+called `asp` which pulls a given package down from a Git mirror of the SVN
 repository.
 
 
