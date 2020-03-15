@@ -308,6 +308,13 @@ section.icons .content a .icon {
 section.icons .content a .flag {
   border-radius: 50%;
 }
+
+section.footnotes {
+ border-top : 0.5px solid gray;
+ margin-top: 100px;
+ margin-left: auto;
+}
+
 @media (min-width: 600px) {
   section.icons {
     background-color: transparent;
@@ -509,7 +516,7 @@ section.header {
 }
 section.icons {
   padding-top: 0;
-  padding-bottom: 32px;
+  padding-bottom: 0;
 }
 section.main {
   padding-top: 32px;
@@ -524,7 +531,7 @@ section.main {
     padding-bottom: 60px;
   }
   section.icons {
-    padding-top: 60px;
+    padding-top: 0;
     padding-bottom: 60px;
   }
   section.main {
@@ -540,7 +547,7 @@ section.main {
   }
   section.main.post {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
 }
 a {
