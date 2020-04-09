@@ -82,8 +82,8 @@
             <a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
         {{ end }}
 
-        {{ if .Site.RSSLink }}
-            <a href="{{ .Site.RSSLink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
+        {{ if .OutputFormats.Get "RSS" }}
+            <a  href='{{ (.OutputFormats.Get "RSS").RelPermalink }}' rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
         {{ end }}
         {{ if and .Site.Params.i18n_flags .IsTranslated }}
             {{ range .Translations }}

@@ -536,7 +536,7 @@ section.main {
   }
   section.main {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 32px;
   }
   section.main .container .content .post-item {
     display: flex;

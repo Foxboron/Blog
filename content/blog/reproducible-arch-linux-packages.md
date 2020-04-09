@@ -1,6 +1,9 @@
 ---
 title: "Reproducible Arch Linux Packages"
 date: 2019-11-11T12:00:00+01:00
+tags:
+  - Arch Linux
+  - english
 ---
 
 Arch Linux has been involved with the reproducible builds efforts since 2016.

@@ -1,21 +1,42 @@
 {{ partial "header.html" . }}
+
+{{ $Pages := .Pages }}
+
+{{ if .IsHome }}
+  {{ $Pages = where site.RegularPages "Type" "blog" }}
+{{ end }}
+
 <section class="main">
     <div class="container">
         <div class="content">
-            {{ partial "page-heading.html" . }}
-            <div class="markdown">
-                {{ .Content }}
-            </div>
-            {{ with .Data.Pages }}
-            <nav class="section-items">
-                <ul>
-                {{ range .ByWeight }}
-                    <li><a {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ default .Title .Params.heading }}</a></li>
+            {{ $totalpostscount := len (where .Data.Pages "Section" "blog") }}
+            {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+            {{ if gt $latestpostscount 0 }}
+                {{ if .IsHome }}
+                  <div class="page-heading">{{ i18n "latestPosts" }}</div>
+                {{ else }}
+                  {{ partial "page-heading.html" . }}
+                {{end}}
+                {{ if .Content }}
+                    <div class="markdown">
+                        {{ .Content }}
+                    </div>
                 {{ end }}
+                <ul>
+                    {{ range $Pages }}
+                        {{ partial "li.html" . }}
+                    {{ end }}
+                    {{ if gt $totalpostscount $latestpostscount }}
+                        {{ range where .Site.Menus.main "Identifier" "blog" }}
+                            <li class="post-item no-bullet">
+                                <a id="see-more" {{ printf "href=%q " .URL | safeHTMLAttr }}><span>See more&hellip;</span></a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
                 </ul>
-            </nav>
             {{ end }}
         </div>
     </div>
 </section>
 {{ partial "footer.html" . }}
+

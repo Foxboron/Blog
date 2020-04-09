@@ -45,10 +45,7 @@ lang                   = "en"
 selfintro              = "F/OSS Developer, Arch Linux trusted user and security team."
 github                 = "//github.com/Foxboron"
 twitter                = "//twitter.com/MortenLinderud"
-
-highlightjs            = true
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
-# highlightjsStyle     = "darcula"
-
 avatar = "img/profile.png"
-#gravatar             = ""
+
+[taxonomies]
+  tag = "tags"
