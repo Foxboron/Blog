@@ -26,6 +26,12 @@ weight                 = -110
 identifier             = "about"
 url                    = "/about/"
 
+[[menu.main]]
+name                   = "Tags"
+weight                 = -110
+identifier             = "tags"
+url                    = "/tags/"
+
 #[[menu.main]]
 #name                   = "Code"
 #weight                 = -100

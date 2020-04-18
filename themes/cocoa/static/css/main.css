@@ -397,6 +397,12 @@ section.main .content .front-matter .meta {
   display: flex;
   margin-bottom: 32px;
 }
+section.main .content .front-matter .tags a {
+  color: #666;
+}
+section.main .content .front-matter .tags a:hover {
+  text-decoration: underline;
+}
 section.main .content .front-matter .date,
 section.main .content .front-matter .word-count,
 section.main .content .front-matter .reading-time .middot {

@@ -15,14 +15,21 @@
                     <div class="date" title='{{ .Date.Format "Mon Jan 2 2006 15:04:05 MST" }}'>{{ .Date.Format "Jan 2, 2006" }}</div>
                     {{ end }}
                     {{ if not .Site.Params.noshowreadtime }}
-		    <div class="reading-time"><div class="middot"></div>{{ i18n "readingTime" .ReadingTime }}</div>
+                    <div class="reading-time"><div class="middot"></div>{{ i18n "readingTime" .ReadingTime }}</div>
                     {{ end }}
-                </div>
+                    {{ if (.GetTerms "tags")}}
+                    <div class="tags"><div class="middot"></div>Tags:
+                    {{ range (.GetTerms "tags") }}
+                    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                    {{ end }}
+                    </div>
+                    {{end}}
+                    </div>
             </div>
             <div class="markdown">
                 {{ .Content }}
                 <br>
-		<p class="back-to-posts"><a href="/blog/">{{ i18n "backToPosts" }}</a></p>
+                <p class="back-to-posts"><a href="/blog/">{{ i18n "backToPosts" }}</a></p>
             </div>
             <br>
             <div class="disqus">
