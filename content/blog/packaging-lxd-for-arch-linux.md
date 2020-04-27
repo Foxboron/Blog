@@ -80,7 +80,7 @@ Unesting this flag magic, we know the vendored dependencies LXD vendor is:
 * sqlite
 * raft
 * libco
-* dplite
+* dqlite
 
 Vendoring is generally considered bad for a number of reasons. The most
 important one is security. Having Z number of upstream vendors with N versions
