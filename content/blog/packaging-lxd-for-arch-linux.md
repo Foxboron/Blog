@@ -209,12 +209,11 @@ export CGO_CFLAGS="-I/usr/include/sqlite-replication"
 export CGO_LDFLAGS="-L/usr/lib/sqlite-replication -Wl,-R/usr/lib/sqlite-replication"
 {{< /highlight >}}
 
-What I wound up doing in the end is to include the `-rpath` stuff from
-`sqlite-replication` and riffing on the flags provided by upstream for their
-vendoring. It seems to work correctly and I haven't recieved any bugreports
-suggesting otherwise. After getting this to work I did discover this is exactly
-what Void Linux does, so oh-well. Should probably read other distribution
-package files a bit better.
+What I wound up doing is to include the `-rpath` stuff from `sqlite-replication`
+and riffing on the flags provided by upstream for their vendoring. It seems to
+work correctly and I haven't recieved any bugreports suggesting otherwise.
+After getting this to work I did discover this is exactly what Void Linux does,
+so oh-well. Should probably read other distribution package files a bit better.
 
 And a side note; `libcap` [introduced a hard
 dependency](https://sites.google.com/site/fullycapable/release-notes-for-libcap/releasenotesfor228pending)
@@ -233,7 +232,7 @@ export CGO_LDFLAGS_ALLOW='-Wl,-wrap,pthread_create'
 
 After this fumbling, which is honestly is the result of two months on-and-off
 work now condensed into a 10 minute long read, it works! LXD was packaged
-properly and been a happy LXD user.
+properly, and I have been a happy LXD user for the past months.
 
 The resulting PKGBUILD can be found in the repository for
 [LXD](https://git.archlinux.org/svntogit/community.git/tree/trunk/PKGBUILD?h=packages/lxd)
