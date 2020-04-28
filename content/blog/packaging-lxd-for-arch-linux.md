@@ -144,7 +144,7 @@ that `-Wl,-R<path>` rewrites the included search path as it's interpreted as
 `-rpath` when a complete directory is added. I think.
 
 {{< highlight bash >}}
-λ ~ » ldd /usr/lib/libdqlite.so.0.0.1 | grep replication
+λ ~ » ldd /usr/lib/libdqlite.so.0.0.1 | grep libsqlite3
 	libsqlite3.so.0 => /usr/lib/libsqlite3.so.0
 # with -rpath:
 	libsqlite3.so.0 => /usr/lib/sqlite-replication/libsqlite3.so.0
