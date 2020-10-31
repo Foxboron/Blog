@@ -5,11 +5,13 @@ contentdir          = "content"
 languageCode        = "nb"
 layoutdir           = "layouts"
 publishdir          = "public"
+uglyURLs = true
 theme               = "cocoa"
 author              = "Morten Linderud"
 title               = "Morten Linderud"
 pygmentsuseclasses  = true
-pluralizelisttitles = false
+#pluralizelisttitles = false
+highlightjs = true
 
 [permalinks]
 blog  = "blog/:slug/"
