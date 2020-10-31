@@ -17,19 +17,19 @@ installed on your system. Both of them support the basics of generating
 signature lists and signing the EFI variables with certificates, but they still
 have differences which is a source of confusion.
 
-`efitools` has 3 different ways of generating signature lists,
+`efitools` has 3 different ways of generating signature lists:
 `cert-to-efi-hash-list`, `cert-to-sig-list` and `hash-to-efi-sig-list`.
 "Luckily" there are man pages you can read which assumes you have some
 familiarity with UEFI itself.
 
 `sbsigntools` has only `sbsiglist` which is mostly fine, but has non-obvious
 functionality. How do you sign the checksum of an EFI executable as an example?
-I figure that out after some searching on the github code search:
+I figured that out after some searching on the github code search:
 
     sha256sum file.efi | awk '{printf "0x"$1}' | xxd -r -g 1 -c 64  > sha256.bin
     sbsiglist --type sha256 --output sha256.bin.siglist sha256.bin
 
-I think it works, I haven't tried yet. However it is not really a nice
+I think it works as I haven't tried yet. However, it is not really a nice
 experience to use, and the documentation of the tool is severely lacking. The
 functionality should be obvious from the get go. Why do you want this? A nice
 example is to keep a list of known bad checksums of things you don't want booted
@@ -75,7 +75,7 @@ to keep track of files I needed to sign between kernel upgrades, systemd
 upgrades and fwupdmgr upgrades. I didn't need to conjure up some complicated
 hooks for my package manager to ensure I had all the files signed.
 
-It has served me well quite well. However bash gets fairly limiting when you
+It has served me well quite well. However, bash gets fairly limiting when you
 want some trivial option parsing in-between subcommand parsing, which I needed
 for my EFISTUB generation. In the end I decided it was better to start from
 scratch with Go to get some sanity back and wound up with `sbctl`.
