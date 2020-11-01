@@ -116,7 +116,7 @@ first week in November.
 
 ## Reproducible Builds
 
-{{< figure src="/img/reprro.jpeg" >}}
+{{< figure src="/img/repro.jpeg" >}}
 
 The reproducible builds has started their IRC meetings again. It was briefly
 just a discussion how we should proceed with the meeting and what we should
