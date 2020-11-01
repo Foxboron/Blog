@@ -5,7 +5,6 @@ contentdir          = "content"
 languageCode        = "nb"
 layoutdir           = "layouts"
 publishdir          = "public"
-uglyURLs = true
 theme               = "cocoa"
 author              = "Morten Linderud"
 title               = "Morten Linderud"
