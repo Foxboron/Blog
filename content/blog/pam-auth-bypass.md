@@ -61,8 +61,8 @@ posts submits an email to security@archlinux.org:
 >
 > This impacted me when my mail server (dovecot/postfix) got breached via a “no password” and sent significant spam.
 
-The change which is mentioned is the following change to the `filesystem` in the
-[file `/etc/shadow`](https://github.com/archlinux/svntogit-packages/commit/0320c909f3867d47576083e853543bab1705185b#diff-3e341d2d9c67be01819b25b25d5e53ea3cdf3a38d28846cda85a195eb9b7203a)
+The change which is mentioned is the following change to the `filesystem`
+package in the file [`/etc/shadow`](https://github.com/archlinux/svntogit-packages/commit/0320c909f3867d47576083e853543bab1705185b#diff-3e341d2d9c67be01819b25b25d5e53ea3cdf3a38d28846cda85a195eb9b7203a)
 
 {{< highlight diff >}}
 -root::14871::::::
