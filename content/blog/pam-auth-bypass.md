@@ -122,7 +122,7 @@ This only applies for root after all.
 
 ## The Vulnerability
 
-Levente Polyakk theorized that these invalid users clearly was returning
+Levente Polyak theorized that these invalid users clearly was returning
 something valid for `pam_unix.so`. How else would they continue to authenticate?
 Johannes spelunks through code, looking for the code path that would allow
 invalid users to authenticate.
