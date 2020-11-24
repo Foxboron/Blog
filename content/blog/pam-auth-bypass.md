@@ -42,9 +42,9 @@ authentication. As the [manpage](https://linux.die.net/man/8/pam_unix) explains;
 > The default action of this module is to not permit the user access to a service if their official password is blank. The **nullok** argument overrides this default.
 
 The second relevant line is the inclusion of [pam_permit.so](https://linux.die.net/man/8/pam_permit) which indiscriminately
-allows anyone reaching this far access to the system. A must have for any well
-functioning system regardless of the notes about this being "very dangerous
-[...] used with extreme caution".
+allows anyone reaching this far access to the system. Clearly a must have for
+any well functioning system regardless of being "very dangerous" and "used with 
+extreme caution" 🙄.
 
 Now, keep all of this in mind as we continue.
 
