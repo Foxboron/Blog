@@ -188,7 +188,7 @@ extra fields:
 
 This is clearly unfortunate for people that relies on PAM authentication for
 their systems, and a good lecture as to why you probably shouldn't use PAM for
-this. Also some material for people that strongly believes Arch is not suitable
+this. Also some material for people that strongly believe Arch is not suitable
 for servers. Win-win!
 
 As of taping, the PAM package has been patched in Arch and currently going
