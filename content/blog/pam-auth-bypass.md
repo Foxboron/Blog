@@ -186,7 +186,7 @@ extra fields:
   user=this-user-is-invalid
 {{< /highlight >}}
 
-This is clearly unfortunate for people that relies on PAM authentication for
+This is clearly unfortunate for people that rely on PAM authentication for
 their systems, and a good lecture as to why you probably shouldn't use PAM for
 this. Also some material for people that strongly believe Arch is not suitable
 for servers. Win-win!
