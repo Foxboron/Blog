@@ -28,7 +28,7 @@ move to the stable repositories early next week. I simply haven't been bothered
 going through the hoops of releasing package updates into stable and then deal
 with a rebuild for python 3.9 for [testing](https://lists.archlinux.org/pipermail/arch-dev-public/2020-November/030223.html).
 
-In other new `kubernetes` is not packages into `[community]`. I'm probably doing
+In other news, `kubernetes` is now packaged into `[community]`. I'm probably doing
 a write up on this later this week. Most of this work has been done by David
 Runge, with me as supporting character. This also includes a reorganization of
 the different container files between the Red Hat container ecosystem. The files
