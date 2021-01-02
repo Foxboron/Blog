@@ -1,7 +1,6 @@
 ---
 title: "FOSS Activities in December 2020"
-date: "2021-01-02T10:20:00+02:00"
-draft: true
+date: "2021-01-02T11:20:00+02:00"
 tags:
   - foss
   - monthly
