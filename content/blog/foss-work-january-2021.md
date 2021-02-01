@@ -1,5 +1,5 @@
 ---
-title: "FOSS Activities in January 2020"
+title: "FOSS Activities in January 2021"
 date: "2021-02-01T00:21:00+02:00"
 tags:
   - foss
