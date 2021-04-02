@@ -126,7 +126,7 @@ Now rest of the post follows as usual :)
 - `slirp4netns` updated to `1.1.9-1`
 - `influxdb` updated to `2.0.4-1`
 - `salt` updated to `3002.5-3`
-- `docker` updated `1:20.10.4-1`
+- `docker` updated to `1:20.10.4-1`
 
 
 ## Package additions to [community]
@@ -145,6 +145,9 @@ Now rest of the post follows as usual :)
 - `git-publish`
 - `psi-notify`
 - `etcd`
+- `gosec`
+- `kind`
+- `nomad`
 
 # Bugfixes
 - `go`: [FS#69408](https://bugs.archlinux.org/task/69408)
