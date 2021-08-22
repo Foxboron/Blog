@@ -1,13 +1,11 @@
 ---
-title: "mkinitcpio and UEFI stubs"
+title: "mkinitcpio v31 and UEFI stubs"
 date: "2021-08-22T00:00:00+02:00"
 tags:
 - english
 - archlinux
 - mkinitcpio
 ---
-
-# mkinitcpio v31 and UEFI stubs
 
 A few months ago I wrote up some code for `mkinitcpio` which teaches it how to
 create UEFI executables utilizing the systemd stub.
