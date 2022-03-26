@@ -724,7 +724,12 @@ section.main .content .markdown img {
   max-width: 100%;
 }
 
-section.main .content .markdown figure img {
+.video-shortcode {
+  max-width: 100%;
+  height: auto;
+}
+
+section.main .content .markdown figure img :not(.full){
   max-width: 30%;
   float: right;
 }
@@ -744,3 +749,4 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
+
