@@ -5,7 +5,7 @@ date: 2020-05-9T00:00:00+01:00
 
 Yo!
 
-I'm a Free and Open-Source developer currently living in Bergen, Norway, and go
+I'm a Free and Open-Source developer currently living in Oslo, Norway and go
 by the nickname Foxboron on most platforms.
 
 My interests are mainly in software development, but I dabble around security
