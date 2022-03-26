@@ -2,6 +2,7 @@
 title: "Streaming the Steam Deck to OBS"
 date: "2022-03-26T14:07:41+0100"
 tags:
+  - english
   - streaming
   - steamdeck
   - archlinux
