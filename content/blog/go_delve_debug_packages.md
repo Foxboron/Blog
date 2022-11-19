@@ -236,4 +236,6 @@ for containers and Linux distributions.
 Having a kubernetes cluster with crash handlers, and a debuginfod server with
 delve support seems like a cool thing that should exist I guess.
 
-I plan on writing a longer blog post how most of this is implemented. 
+I plan on writing a longer blog post how the infrastructure in Arch Linux was
+implemented, along a longer post describing what I learned implementing better
+debug package support in pacman.

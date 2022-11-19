@@ -16,9 +16,7 @@ photography.
 I have contributed to a several Open-Source projects, such as the [Reproducible
 Builds](https://reproducible-builds.org/),
 [Hylang](https://en.wikipedia.org/wiki/Hy), The Tor project, and most notably
-the Linux distribution [Arch
-Linux](https://www.archlinux.org/people/trusted-users/#Foxboron) where I do
-packaging and participate in the security team.
+the Linux distribution [Arch Linux](https://www.archlinux.org/people/trusted-users/#Foxboron) where I do packaging and participate in the security team.
 
 These days I work as a developer in an IT security company.
 
