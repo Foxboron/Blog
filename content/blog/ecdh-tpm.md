@@ -143,19 +143,20 @@ var (
 
         // Default SRK key template
 	srkTemplate = tpm2.Public{
-		Type:       tpm2.AlgRSA,
+		Type:       tpm2.AlgECC,
 		NameAlg:    tpm2.AlgSHA256,
-		Attributes: tpm2.FlagFixedTPM | tpm2.FlagFixedParent
-                            | tpm2.FlagSensitiveDataOrigin | tpm2.FlagUserWithAuth
-                            | tpm2.FlagRestricted | tpm2.FlagDecrypt | tpm2.FlagNoDA,
-		RSAParameters: &tpm2.RSAParams{
+		Attributes: tpm2.FlagStorageDefault | tpm2.FlagNoDA,
+		ECCParameters: &tpm2.ECCParams{
 			Symmetric: &tpm2.SymScheme{
 				Alg:     tpm2.AlgAES,
 				KeyBits: 128,
 				Mode:    tpm2.AlgCFB,
 			},
-			KeyBits:    2048,
-			ModulusRaw: make([]byte, 256),
+			CurveID: tpm2.CurveNISTP256,
+			Point: tpm2.ECPoint{
+				XRaw: make([]byte, 32),
+				YRaw: make([]byte, 32),
+			},
 		},
 	}
 
