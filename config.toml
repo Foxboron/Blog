@@ -52,6 +52,7 @@ lang                   = "en"
 selfintro              = "F/OSS Developer, Arch Linux Developer and security team."
 github                 = "//github.com/Foxboron"
 twitter                = "//twitter.com/MortenLinderud"
+mastodon               = "//chaos.social/@Foxboron"
 avatar = "img/profile.png"
 
 [taxonomies]
