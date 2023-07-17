@@ -750,3 +750,14 @@ section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
 
+a.footnote-ref {
+  vertical-align: super;
+  font-size: smaller;
+}
+a.footnote-ref:after {
+  content: "]"
+}
+a.footnote-ref:before {
+  content: "["
+}
+
