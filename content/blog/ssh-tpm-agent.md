@@ -167,10 +167,10 @@ it self. Either by provisioning ssh keys on the client, or host keys. This makes
 a lot of sense as these keys can not be stolen from the host itself and prevents
 re-use attacks.
 
-I have also wondering if there is a way to make some extensions to the login
-protocol which would allow ssh host attestation towards clients. This would be
-be useful for cases where you are remote unlocking a host and would like some
-assurances from the host itself before typing a sensitive password. 
+I have also been wondering if there is a way to make some extensions to the
+login protocol which would allow ssh host attestation towards clients. This
+would be be useful for cases where you are remote unlocking a host and would
+like some assurances from the host itself before typing a sensitive password. 
 
 Hopefully this project is useful for more people! There is some release
 candidates published and I intend to fix a package for Arch Linux soon'ish,
