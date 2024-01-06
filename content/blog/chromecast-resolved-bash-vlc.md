@@ -4,6 +4,7 @@ date: "2024-01-06T20:59:20+02:00"
 tags:
 - linux
 - resolved
+- english
 ---
 
 Chromecast is one of those devices I just generally use a lot. They are small
