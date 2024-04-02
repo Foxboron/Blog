@@ -110,7 +110,7 @@ But to try and end on a positive note:
 effort in your Linux distro. There is constant work in all major Linux distros
 that needs help. It's a great way to do cross-distro collaborative work and you
 can learn the eldritch horror that is "build systems". I spent 2-3 months
-tracking down a `gcc` but in `-flto` and I assure you I thought it was fun
+tracking down a `gcc` bug in `-flto` and I assure you I thought it was fun
 at least for an hour or two.
 
 Fedora has recently kicked off their efforts again[^fedora].
