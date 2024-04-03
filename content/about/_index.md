@@ -22,7 +22,7 @@ These days I work as a developer in an IT security company.
 
 **Email**: [morten@linderud.pw](mailto:morten@linderud.pw) & [foxboron@archlinux.org](mailto:foxboron@archlinux.org)
 
-**Code**: [github](https://github.com) & [self-hosted (Not setup yet)](https://git.linderud.dev)
+**Code**: [github](https://github.com/foxboron) & [self-hosted (Not setup yet)](https://git.linderud.dev)
 
 **OpenPGP**: [0x9C02FF419FECBE16](/gpg.asc) [(stats)](https://pgp.cs.uu.nl/stats/9c02ff419fecbe16.html)
 
