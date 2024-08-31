@@ -63,3 +63,10 @@
 <!-- End gitalk Code -->
 
 <link rel="me" href="https://chaos.social/@Foxboron">
+
+{{ if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
