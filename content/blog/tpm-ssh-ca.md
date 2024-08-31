@@ -5,6 +5,7 @@ tags:
 - security
 - sigstore
 - tpm
+- english
 ---
 
 The past year I have been hacking around on tools utilizing TPMs, and one of the
